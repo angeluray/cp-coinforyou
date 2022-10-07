@@ -24,9 +24,7 @@ root.render(
         <Navigation />
         <Routes>
           <Route path="/" element={<MyCryptoCurrencies />} />
-          <Route path="/coin" element={<MyCoin />}>
-            <Route path=":coindId" element={<MyCoin />} />
-          </Route>
+          <Route path="/coin/:coinId" element={<MyCoin />} />
         </Routes>
       </Provider>
     </BrowserRouter>
