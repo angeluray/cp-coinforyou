@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) ![React](https://img.shields.io/badge/-React-blue) ![Redux](https://img.shields.io/badge/-React-purple)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [CoinForU/Metrics webapp](https://github.com/microverseinc/curriculum-react-redux/blob/main/capstone/react_capstone.md)
 
-## Available Scripts
+- "CoinForU" is a React.js and Redux.js-based mobile web to check a list of metrics (numeric values) that I created making use of React and Redux as well as CoinGeckco API to retrieve real data of any cryptocurrency. CoinForU allows users to search for any cryptocurrency into the homepage-list using the searchbar or scrolling the list, when users click one cryptocurrency they will be able to see things like CoinMarketCap rank, Current value, Symbol, price changes from 60d to 1h, and more. 
 
-In the project directory, you can run:
+## Getting Started
+To get a local copy up and running follow these simple steps.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Internet service.
+- Basic knowledge of Git/Terminal and NPM.
+- Visual Studio Code.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setup
 
-### `npm test`
+- Open the terminal on your computer
+- Navigate through directories using [change directory (cd)](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10) command to where you want to clone the repository.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Type the following command then press ENTER:**
 
-### `npm run build`
+  > git clone git@github.com:angeluray/cp-coinforyou.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- the terminal will send to you information about your download.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Type the following lists of commands and press ENTER after each command:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Open folder in VSC**
+    - code .
 
-### `npm run eject`
+  - *Install dependencies locally*  
+    - npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  - *Setup linters*
+    - npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+    - npx stylelint "**/*.{css,scss}"
+    - npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x @babel/preset-env@7.x  @babel/preset-react@7.x
+    - npx eslint .
+  
+  - *Basic REACT commands*
+    - npm run build
+    - npm start
+    - npm test
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **JavaScript**
+- **React**
+- **Redux**
+- **Jest**
+- **GitHub flow**
+- **Linters Check**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🌎 Live Demo:
+- [CoinForU/Metrics webpage]()
+> The live demo link will be available after got the complete project approve.
 
-## Learn More
+## Authors 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 👤 Angel Uray
+- GitHub: [@angeluray](https://github.com/angeluray)
+- Twitter: [@atangeluray](https://twitter.com/atangeluray)
+- LinkedIn: [Angel Uray](www.linkedin.com/in/angeluray-jobs)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
+- Give a ⭐️ if you like this project!
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+- This project is [MIT](./LICENSE) licensed.
