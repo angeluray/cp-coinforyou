@@ -20,6 +20,7 @@ export const SingleCryptoSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: {
+    [fetchSingleCrypto.pending]: () => {},
     [fetchSingleCrypto.fulfilled]: (state, action) => action.payload,
   },
 });
