@@ -1,7 +1,16 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -9,7 +18,12 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
     monospace;
 }
 
@@ -18,7 +32,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 15px;
+  padding: 0 15px;
 }
 
 .navlink {
@@ -60,7 +74,7 @@ nav {
 }
 
 .stats-header {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   color: #fff;
   background-color: rgb(21, 74, 172);
   padding: 4px;
@@ -72,10 +86,11 @@ nav {
   flex-wrap: wrap;
   gap: 1px;
   list-style-type: none;
+
   /* border: 1px solid rgb(255, 255, 255); */
   padding: 0 0;
   cursor: pointer;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .mysuperlist a {
@@ -96,7 +111,7 @@ nav {
   background-color: rgba(13, 56, 137, 0.378);
 }
 
-.home-item-info{
+.home-item-info {
   padding-right: 5px;
   padding-bottom: 5px;
 }
@@ -156,7 +171,7 @@ nav {
 }
 
 .rank:hover {
-  box-shadow: rgba(240, 46, 170, 0.4) 0px 3px, rgba(240, 46, 170, 0.3) 0px 6px, rgba(240, 46, 170, 0.2) 0px 9px, rgba(240, 46, 170, 0.1) 0px 12px, rgba(240, 46, 170, 0.05) 0px 15px;
+  box-shadow: rgba(240, 46, 170, 0.4) 0 3px, rgba(240, 46, 170, 0.3) 0 6px, rgba(240, 46, 170, 0.2) 0 9px, rgba(240, 46, 170, 0.1) 0 12px, rgba(240, 46, 170, 0.05) 0 15px;
 }
 
 .name {
@@ -176,10 +191,10 @@ nav {
 }
 
 .myCoinContainer {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 5px 5px;
   width: 85vw;
-  margin: 50px auto;
+  margin: 11px auto;
   border-radius: 10px;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
@@ -212,6 +227,7 @@ nav {
   justify-content: center;
   width: 33.33%;
   height: 6rem;
+  box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.303);
 }
 
 .devider p {
@@ -238,7 +254,41 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: rgba(28, 15, 214, 0.878);
-  padding: 10px;
+  padding: 11px;
+  gap: 5px;
+  overflow-x: scroll;
+}
+
+.coinPrices::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.coinPrices::-webkit-scrollbar-thumb {
+  background-color: #a9a9a9a2;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.3s ease-in;
+}
+
+.coinPrices::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.coinPrices::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.coinPrices::-webkit-scrollbar-button:increment,
+.contenedor::-webkit-scrollbar-button {
+  display: none;
+}
+
+.coinPrices::-webkit-scrollbar:horizontal {
+  height: 7px;
+}
+
+.coinPrices::-webkit-scrollbar-thumb:hover {
+  background-color: #dededea2;
 }
 
 .supply {
@@ -246,7 +296,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0 10px;
-  background-color: rgba(46, 36, 183, 0.878);
+  background-color: rgba(19, 7, 180, 0.878);
+}
+
+.supply:hover {
+  background-color: rgba(28, 15, 214, 0.878);
 }
 
 .supply h3 {
@@ -264,19 +318,25 @@ nav {
   border-bottom: 2px solid rgba(255, 255, 255, 0.226);
 }
 
+.sp {
+  border-top: 2px solid rgba(255, 255, 255, 0.226);
+}
+
 .coinImg {
-  animation: MoveUpDown 4s linear infinite;
+  animation: MoveUpDown 3.5s linear infinite;
   position: absolute;
-  left: 387px;
-  top: 155px;
+  left: 380px;
+  top: 120px;
 }
 
 @keyframes MoveUpDown {
-  0%, 100% {
-    top: 200px;
+  0%,
+  100% {
+    top: 165px;
   }
+
   50% {
-    top: 215px;
+    top: 180px;
   }
 }
 
@@ -298,6 +358,7 @@ nav {
   border-radius: 50px;
   padding: 2px 8px;
   color: rgba(255, 255, 255, 0.932);
+  box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.303);
 }
 
 .change h3 {
@@ -309,10 +370,6 @@ nav {
 .coinprice {
   margin: 3px 0;
   font-family: 'Lato', sans-serif;
-}
-
-.coinSupplies {
-  background-color: rgba(28, 15, 214, 0.878);
 }
 
 .coinSocial {
@@ -348,4 +405,37 @@ nav {
 
 .form:focus {
   outline: 8px ridge rgba(224, 29, 120, 0.603);
+}
+
+.myloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.myloader p {
+  font-family: 'Lato', sans-serif;
+  color: rgb(190, 62, 195);
+}
+
+.loader {
+  width: 20px;
+  height: 20px;
+}
+
+.hl {
+  background-color: rgba(19, 7, 180, 0.878);
+}
+
+@media (min-width: 768px) {
+  .homeItem {
+    width: 32.9vw;
+    height: 30.55vh;
+  }
+
+  .coinImg {
+    animation: none;
+    position: static;
+  }
 }
