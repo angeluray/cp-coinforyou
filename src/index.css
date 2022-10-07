@@ -39,10 +39,12 @@ nav {
   display: flex;
   align-items: center;
   color: #fff;
+  text-decoration: none;
 }
 
 .navlink p {
   font-size: 18px;
+  font-family: 'Lato', sans-serif;
 }
 
 .navlink-1 {
