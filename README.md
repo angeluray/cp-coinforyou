@@ -52,6 +52,9 @@ To get a local copy up and running follow these simple steps.
 - **GitHub flow**
 - **Linters Check**
 
+## 👤 Video presentation:
+- [CoinForU Presentation](https://youtu.be/8SMbNmggAqQ)
+
 ## 🌎 Live Demo:
 - [CoinForU/Metrics webpage](https://tourmaline-kitsune-d693cd.netlify.app)
 
