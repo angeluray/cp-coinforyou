@@ -53,8 +53,7 @@ To get a local copy up and running follow these simple steps.
 - **Linters Check**
 
 ## 🌎 Live Demo:
-- [CoinForU/Metrics webpage]()
-> The live demo link will be available after got the complete project approve.
+- [CoinForU/Metrics webpage](https://tourmaline-kitsune-d693cd.netlify.app)
 
 ## Authors 
 
