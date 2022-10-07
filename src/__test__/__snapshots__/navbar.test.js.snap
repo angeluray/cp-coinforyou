@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Navbar renders correctly 1`] = `
+<nav>
+  <a
+    aria-current="page"
+    className="navlink active"
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Back icon"
+      className="back-icon"
+      src="back.png"
+    />
+    <p>
+      BACK
+    </p>
+  </a>
+  <a
+    aria-current="page"
+    className="navlink-1 active"
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="CryptoForU Logo"
+      className="logo"
+      src="navlogo-short.png"
+    />
+  </a>
+  <ul
+    className="nav-ul"
+  >
+    <li>
+      <img
+        alt="Microphone icon"
+        className="nav-options"
+        src="microphone.png"
+      />
+    </li>
+    <li>
+      <img
+        alt="Settings icon"
+        className="nav-options"
+        src="settings.png"
+      />
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Test navbar renders correctly 1`] = `
+<nav>
+  <a
+    aria-current="page"
+    className="navlink active"
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="Back icon"
+      className="back-icon"
+      src="back.png"
+    />
+    <p>
+      BACK
+    </p>
+  </a>
+  <a
+    aria-current="page"
+    className="navlink-1 active"
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="CryptoForU Logo"
+      className="logo"
+      src="navlogo-short.png"
+    />
+  </a>
+  <ul
+    className="nav-ul"
+  >
+    <li>
+      <img
+        alt="Microphone icon"
+        className="nav-options"
+        src="microphone.png"
+      />
+    </li>
+    <li>
+      <img
+        alt="Settings icon"
+        className="nav-options"
+        src="settings.png"
+      />
+    </li>
+  </ul>
+</nav>
+`;
