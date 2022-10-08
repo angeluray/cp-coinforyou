@@ -8,7 +8,6 @@ import MyCoin from './coin/coin';
 
 const CryptoItemList = (props) => {
   const { cryptos, search } = props;
-  /* console.log(cryptos); */
 
   const filteredCryptos = cryptos.filter((crypto) => crypto.name.toLowerCase().includes(search.toLowerCase()) || crypto.symbol.toLowerCase().includes(search.toLowerCase()));
 

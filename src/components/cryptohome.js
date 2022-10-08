@@ -5,7 +5,7 @@ import CryptoItemList from './cryptoList';
 
 const MyCryptoCurrencies = () => {
   const cryptos = useSelector((state) => state.cryptolist);
-  /* console.log(cryptos); */
+
   const dispatch = useDispatch();
   const [search, setSearch] = useState('');
 
