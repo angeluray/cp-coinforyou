@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test HomeContainer renders correctly 1`] = `
+<div
+  className="cryptoContainer"
+>
+  <input
+    className="form"
+    onChange={[Function]}
+    placeholder="Search a cryptocurrency"
+    type="text"
+  />
+  <h3
+    className="stats-header"
+  >
+    STATS BY RANK
+  </h3>
+  <ul
+    className="mysuperlist"
+  />
+</div>
+`;
+
+exports[`Test MyCoin renders correctly 1`] = `
+<div
+  className="myCoinContainer"
+>
+  <div
+    className="coinTitle"
+  >
+    <h2 />
+    <p />
+  </div>
+  <div
+    className="myloader"
+  >
+    <p>
+      Counting coins
+    </p>
+    <img
+      alt="loader"
+      className="loader"
+      src="loading.gif"
+    />
+  </div>
+</div>
+`;
