@@ -65,6 +65,10 @@ To get a local copy up and running follow these simple steps.
 - Twitter: [@atangeluray](https://twitter.com/atangeluray)
 - LinkedIn: [Angel Uray](www.linkedin.com/in/angeluray-jobs)
 
+## Acknowledgements ⭐️
+
+- Special thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) that inspired to create this project.
+
 ## Show your support
 - Give a ⭐️ if you like this project!
 
