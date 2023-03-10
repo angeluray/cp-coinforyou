@@ -6,9 +6,8 @@
 
 # Pre-check
 
+![mobile (11)](https://user-images.githubusercontent.com/97189760/224400113-26e77fe4-1b23-47f7-bd56-f9724f77282f.png)
 ![mobile (10)](https://user-images.githubusercontent.com/97189760/224399917-67aa1fb3-89ba-4399-87ef-70ec3ac24386.png)
-![mobile (9)](https://user-images.githubusercontent.com/97189760/224399956-9886cd11-3561-4192-aaa6-27f0dd11a3cd.png)
-
 
 ## Getting Started
 To get a local copy up and running follow these simple steps.
