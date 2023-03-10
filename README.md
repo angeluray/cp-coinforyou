@@ -4,6 +4,12 @@
 
 - "CoinForU" is a React.js and Redux.js-based mobile web to check a list of metrics (numeric values) that I created making use of React and Redux as well as CoinGeckco API to retrieve real data of any cryptocurrency. CoinForU allows users to search for any cryptocurrency into the homepage-list using the searchbar or scrolling the list, when users click one cryptocurrency they will be able to see things like CoinMarketCap rank, Current value, Symbol, price changes from 60d to 1h, and more. 
 
+# Pre-check
+
+![mobile (10)](https://user-images.githubusercontent.com/97189760/224399917-67aa1fb3-89ba-4399-87ef-70ec3ac24386.png)
+![mobile (9)](https://user-images.githubusercontent.com/97189760/224399956-9886cd11-3561-4192-aaa6-27f0dd11a3cd.png)
+
+
 ## Getting Started
 To get a local copy up and running follow these simple steps.
 
